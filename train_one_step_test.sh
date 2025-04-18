@@ -1,0 +1,1 @@
+accelerate launch --config_file ./default_config.yaml scripts/train_wan_t2v.py --train_batch_size 2 --gradient_checkpointing --checkpointing_steps 1000 --rank 256 --validation_steps 1 --scale_lr --use_keyframe --output_dir ./CA_addkey

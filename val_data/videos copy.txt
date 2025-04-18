@@ -1,0 +1,10 @@
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/e41921fbd2970ed63ff1154a9d4a4c74_024.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/d85b641acb0602bcce68babb2f032216_016.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/8ca88bd19ff90268aac2cc4f6e975a61_009.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/7d2dac1678fce2b3a5c013bde2616b92_022.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/6ada2bd95663f10bc16ff787a1d09294_007.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/2983567869abb69f6fd3d780c360137f_013.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/114ea256c2d09b98153a7d53805e72ff_013.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/b1e94244c8c57a48156616e822748bee_019.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/bf8eed021a61ae6b0942e852fa467035_031.mp4
+/root/paddlejob/workspace/env_run/liyuanhang01/DiT_project/Wan2.1_VideoEffect/val_data/crop_video/c64d53a00e7f08ecdb20d33dfbdb1373_002.mp4
