@@ -5,7 +5,10 @@ This code runs the environmeny where **Wan 2.1** can be installed, and then inst
 or
 
 ```sh
-conda env create -f my_env.yaml
+conda create -n wanx python==3.10.12
+cd MIPG_test_VideoEffect
+
+pip install -r requirements_1.txt
 ```
 
 ### Prepare your dataset

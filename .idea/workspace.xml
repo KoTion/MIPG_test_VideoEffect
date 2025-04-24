@@ -1,89 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a6b8e44-6bcc-447f-b9d5-229525b70ee3" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README_wan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/comp_effic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/data_for_diff_stage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/i2v_res.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/t2v_res.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/vben_vs_sota.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video_dit_arch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/video_vae_res.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/default_config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/envionment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/i2v_input.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradio/i2v_14B_singleGPU.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradio/t2i_14B_singleGPU.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradio/t2v_1.3B_singleGPU.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradio/t2v_14B_singleGPU.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/pipeline_wan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/t2v_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/train_wan_t2v.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/transformer_wan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_one_step_test.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/caption copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/caption.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/114ea256c2d09b98153a7d53805e72ff_013.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/2983567869abb69f6fd3d780c360137f_013.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/6ada2bd95663f10bc16ff787a1d09294_007.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/7d2dac1678fce2b3a5c013bde2616b92_022.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/8ca88bd19ff90268aac2cc4f6e975a61_009.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/b1e94244c8c57a48156616e822748bee_019.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/bf8eed021a61ae6b0942e852fa467035_031.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/c64d53a00e7f08ecdb20d33dfbdb1373_002.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/d85b641acb0602bcce68babb2f032216_016.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/crop_video/e41921fbd2970ed63ff1154a9d4a4c74_024.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/videos copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/val_data/videos.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/configs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/configs/shared_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/configs/wan_i2v_14B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/configs/wan_t2v_14B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/configs/wan_t2v_1_3B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/distributed/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/distributed/fsdp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/distributed/xdit_context_parallel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/image2video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/attention.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/clip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/t5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/tokenizers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/vae.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/modules/xlm_roberta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/text2video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/utils/fm_solvers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/utils/fm_solvers_unipc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/utils/prompt_extend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/utils/qwen_vl_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wan/utils/utils.py" afterDir="false" />
+    <list default="true" id="4bbbd8b0-a0d8-464b-8fac-deabc06cec60" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/envionment.yaml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2vtZAERwcVE4IQOHeiE4jrjwgrp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2w4Zktx1vbfMIYb19J93IllukJ3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -92,53 +23,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.stylesheets" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\Wan2.1_VideoEffect_test\scripts" />
+      <recent name="C:\Users\Administrator\Desktop\Wan2.1_VideoEffect_test" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="train_wan_t2v_v100_addframe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Wan2.1_VideoEffect_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/train_wan_t2v_v100_addframe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.train_wan_t2v_v100_addframe" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="7a6b8e44-6bcc-447f-b9d5-229525b70ee3" name="默认变更列表" comment="" />
-      <created>1744966184944</created>
+      <changelist id="4bbbd8b0-a0d8-464b-8fac-deabc06cec60" name="默认变更列表" comment="" />
+      <created>1745302953278</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1744966184944</updated>
-      <workItem from="1744966186674" duration="11000000" />
-      <workItem from="1744988269300" duration="2412000" />
+      <updated>1745302953278</updated>
+      <workItem from="1745302957094" duration="2728000" />
+      <workItem from="1745309784241" duration="771000" />
+      <workItem from="1745313820341" duration="1179000" />
+      <workItem from="1745476765293" duration="3869000" />
     </task>
     <servers />
   </component>
@@ -155,8 +59,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Wan2_1_VideoEffect_test$train_wan_t2v_v100_addframe.coverage" NAME="train_wan_t2v_v100_addframe 覆盖结果" MODIFIED="1744966852540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
